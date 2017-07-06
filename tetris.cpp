@@ -1,6 +1,6 @@
 #include <iostream>
 #include "ZBlock.h"
-#include "OBlock.h"
+#include "Oblock.h"
 #include <new>
 using namespace std;
 typedef std::bad_alloc xalloc;
@@ -35,6 +35,5 @@ int main()
 	catch (xalloc){
 		cout << "°O¾ÐÅé¤£¨¬\n";
 	}
- system("pause");
  return 0;
  }
